@@ -11,6 +11,7 @@ import FAQ from "./pages/FAQ";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Cookies from "./pages/Cookies";
+import Videos from "./pages/Videos";
 
 function HomePage() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/videos" element={<Videos />} />
             <Route path="/documentacao" element={<Documentation />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/privacidade" element={<Privacy />} />

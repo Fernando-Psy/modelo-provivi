@@ -9,6 +9,7 @@ function Footer() {
     ],
     resources: [
       { name: "Blog", href: "/blog" },
+      { name: "Videos", href: "/videos" },
       { name: "Documentation", href: "/documentacao" },
       { name: "FAQ", href: "/faq" },
     ],

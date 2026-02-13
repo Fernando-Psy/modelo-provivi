@@ -10,6 +10,7 @@ function Header() {
     { name: "Home", href: "/" },
     { name: "Features", href: isHomePage ? "#features" : "/#features" },
     { name: "About", href: isHomePage ? "#about" : "/#about" },
+    { name: "Videos", href: "/videos" },
     { name: "Contact", href: isHomePage ? "#contact" : "/#contact" },
   ];
 
