@@ -1,8 +1,42 @@
 # 🚀 Guia Rápido de Deploy
 
+## ⚠️ Problema de Página em Branco no Render?
+
+**👉 Veja o arquivo [RENDER_DEPLOY.md](RENDER_DEPLOY.md) para solução completa!**
+
+---
+
 ## Opções de Deploy Gratuitas
 
-### 1. Vercel (Mais Rápido e Recomendado) ⚡
+### 1. Render (Com Configuração SPA) 🟣
+
+**⭐ RECOMENDADO - Já configurado neste projeto!**
+
+O projeto já tem todos os arquivos necessários:
+
+- ✅ `render.yaml` - Configuração automática
+- ✅ `public/_redirects` - Roteamento SPA
+
+**Deploy Automático:**
+
+1. Faça push das alterações para o GitHub
+2. Acesse https://dashboard.render.com
+3. "New +" → "Static Site"
+4. Conecte seu repositório
+5. O Render detectará o `render.yaml` automaticamente
+6. Clique em "Create Static Site"
+
+**Deploy Manual (se já tem site criado):**
+
+- Build Command: `npm install && npm run build`
+- Publish Directory: `dist`
+- Adicione Rewrite Rule: `/*` → `/index.html` (Rewrite)
+
+**📖 Mais detalhes:** Veja [RENDER_DEPLOY.md](RENDER_DEPLOY.md)
+
+---
+
+### 2. Vercel (Mais Rápido) ⚡
 
 **Via Dashboard:**
 
