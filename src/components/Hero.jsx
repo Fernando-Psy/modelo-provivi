@@ -10,38 +10,41 @@ function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Sustainable Solutions for
-                <span className="text-primary-600"> Agriculture</span>
+                Psicoterapia e avaliações com
+                <span className="text-primary-600"> acolhimento</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600">
-                Revolutionize your agricultural production with innovative and
-                sustainable technologies. Our platform offers complete solutions
-                for ecological pest control.
+                Atendimentos em saúde mental com foco em escuta qualificada,
+                estratégias baseadas em evidências e cuidado individualizado.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contact" className="btn-primary text-center">
-                Request Demo
+                Agendar atendimento
               </a>
               <a href="#features" className="btn-secondary text-center">
-                Explore Features
+                Ver áreas de atuação
               </a>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
               <div>
-                <div className="text-3xl font-bold text-primary-600">98%</div>
-                <div className="text-sm text-gray-600">Effectiveness</div>
+                <div className="text-3xl font-bold text-primary-600">
+                  Online
+                </div>
+                <div className="text-sm text-gray-600">Teleatendimento</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary-600">100%</div>
-                <div className="text-sm text-gray-600">Sustainable</div>
+                <div className="text-3xl font-bold text-primary-600">
+                  Presencial
+                </div>
+                <div className="text-sm text-gray-600">Clínica</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary-600">24/7</div>
-                <div className="text-sm text-gray-600">Support</div>
+                <div className="text-3xl font-bold text-primary-600">Todas</div>
+                <div className="text-sm text-gray-600">as idades</div>
               </div>
             </div>
           </div>

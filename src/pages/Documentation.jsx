@@ -1,30 +1,39 @@
 function Documentation() {
   const sections = [
     {
-      title: "Getting Started",
+      title: "Como funciona o atendimento",
       items: [
         {
-          name: "Introduction",
-          desc: "Learn about our platform and its benefits",
+          name: "Primeiro contato",
+          desc: "Como enviar sua mensagem e tirar dúvidas iniciais",
         },
-        { name: "Installation", desc: "Step-by-step guide to get started" },
-        { name: "First Steps", desc: "Set up your first application" },
+        { name: "Agendamento", desc: "Organização de horários e confirmação" },
+        { name: "Sessões", desc: "O que esperar das sessões e do processo" },
       ],
     },
     {
-      title: "Products",
+      title: "Avaliações",
       items: [
-        { name: "Pheromones", desc: "Understand our pheromone products" },
-        { name: "Application", desc: "How to apply correctly" },
-        { name: "Monitoring", desc: "Track the results" },
+        {
+          name: "Psicodiagnóstico",
+          desc: "Etapas, objetivos e encaminhamentos",
+        },
+        {
+          name: "Neuropsicológica",
+          desc: "Indicações e estrutura do processo",
+        },
+        {
+          name: "Devolutiva",
+          desc: "Alinhamento de resultados e próximos passos",
+        },
       ],
     },
     {
-      title: "Technical Support",
+      title: "Dúvidas e suporte",
       items: [
-        { name: "Maintenance", desc: "Necessary care and maintenance" },
-        { name: "Troubleshooting", desc: "Solve common problems" },
-        { name: "Contact", desc: "Talk to our team" },
+        { name: "Confidencialidade", desc: "Sigilo e ética profissional" },
+        { name: "Teleatendimento", desc: "Orientações para sessões on-line" },
+        { name: "Contato", desc: "Como falar comigo" },
       ],
     },
   ];
@@ -35,10 +44,10 @@ function Documentation() {
       <section className="bg-gradient-to-br from-primary-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Documentation
+            Orientações
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to know to use our solutions efficiently.
+            Informações gerais sobre atendimento e processos de avaliação.
           </p>
         </div>
       </section>
@@ -72,17 +81,17 @@ function Documentation() {
           {/* Additional Resources */}
           <div className="mt-16 bg-primary-50 rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Need More Help?
+              Precisa de ajuda?
             </h2>
             <p className="text-gray-600 mb-6">
-              Our team is ready to assist you at every step.
+              Se preferir, me envie uma mensagem e eu retorno.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/#contact" className="btn-primary">
-                Get in Touch
+                Entrar em contato
               </a>
               <a href="/faq" className="btn-secondary">
-                View FAQ
+                Ver FAQ
               </a>
             </div>
           </div>
@@ -92,7 +101,7 @@ function Documentation() {
               href="/"
               className="text-primary-600 hover:text-primary-700 font-semibold"
             >
-              ← Back to Home
+              ← Voltar ao início
             </a>
           </div>
         </div>

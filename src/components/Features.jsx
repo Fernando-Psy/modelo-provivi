@@ -1,9 +1,9 @@
 function Features() {
   const features = [
     {
-      title: "Biological Control",
+      title: "Psicoterapia (TCC)",
       description:
-        "Advanced pheromone technology for pest control without chemical pesticides.",
+        "Atendimentos com estratégias da Terapia Cognitivo-Comportamental, adaptadas à sua realidade.",
       icon: (
         <svg
           className="w-8 h-8"
@@ -19,9 +19,9 @@ function Features() {
       ),
     },
     {
-      title: "Sustainability",
+      title: "Neuropsicologia",
       description:
-        "100% natural solutions that preserve the environment and biodiversity.",
+        "Atendimentos em neuropsicologia e psicodiagnóstico em clínica presencial e on-line.",
       icon: (
         <svg
           className="w-8 h-8"
@@ -37,9 +37,9 @@ function Features() {
       ),
     },
     {
-      title: "Easy Implementation",
+      title: "Avaliação psicológica",
       description:
-        "Practical system with quick installation and specialized technical support.",
+        "Avaliações e aplicações de instrumentos psicológicos com cuidado técnico e ético.",
       icon: (
         <svg
           className="w-8 h-8"
@@ -55,9 +55,9 @@ function Features() {
       ),
     },
     {
-      title: "Monitoring",
+      title: "Autismo (TEA)",
       description:
-        "Real-time tracking of effectiveness and implementation results.",
+        "Experiência com atendimentos individuais e em grupo, com pessoas autistas de todas as idades.",
       icon: (
         <svg
           className="w-8 h-8"
@@ -73,9 +73,9 @@ function Features() {
       ),
     },
     {
-      title: "Cost Reduction",
+      title: "Saúde mental corporativa",
       description:
-        "Significant savings compared to traditional control methods.",
+        "Atuação em saúde mental no trabalho e suporte a contextos organizacionais.",
       icon: (
         <svg
           className="w-8 h-8"
@@ -91,9 +91,9 @@ function Features() {
       ),
     },
     {
-      title: "Certifications",
+      title: "Orientação profissional",
       description:
-        "Certified products approved by international regulatory bodies.",
+        "Mediação e orientação profissional (organizacional e do trabalho), com foco em desenvolvimento.",
       icon: (
         <svg
           className="w-8 h-8"
@@ -114,10 +114,9 @@ function Features() {
     <section id="features" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="section-title">Platform Features</h2>
+          <h2 className="section-title">Áreas de atuação</h2>
           <p className="section-subtitle max-w-3xl mx-auto">
-            Discover how our technology can transform your agricultural
-            production with innovative and sustainable solutions.
+            Conheça as principais frentes de atendimento e temas em que atuo.
           </p>
         </div>
 

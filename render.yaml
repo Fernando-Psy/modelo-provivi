@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: agrotech-platform
+    name: priscila-borges-site
     env: static
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist

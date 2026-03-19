@@ -36,7 +36,35 @@ O projeto já tem todos os arquivos necessários:
 
 ---
 
-### 2. Vercel (Mais Rápido) ⚡
+### 2. HostGator (Hospedagem Tradicional) 🌐
+
+**⭐ Ideal se você já tem hospedagem HostGator!**
+
+O projeto já está configurado:
+
+- ✅ `public/.htaccess` - Arquivo de rewrite Apache já criado
+- ✅ Build otimizado pronto para upload
+
+**Deploy Manual:**
+
+1. Execute: `npm run build`
+2. Acesse o cPanel do HostGator
+3. Vá em "Gerenciador de Arquivos"
+4. Faça upload de TODOS os arquivos da pasta `dist/` para `public_html/`
+5. Certifique-se que o `.htaccess` foi copiado
+6. Teste todas as rotas do site
+
+**📖 Guia completo:** Veja [HOSTGATOR_DEPLOY.md](HOSTGATOR_DEPLOY.md)
+
+**Observações:**
+
+- Deploy manual (não automático)
+- Precisa fazer upload toda vez que atualizar
+- Funciona perfeitamente com domínio próprio
+
+---
+
+### 3. Vercel (Mais Rápido) ⚡
 
 **Via Dashboard:**
 
@@ -58,7 +86,7 @@ vercel login
 vercel
 ```
 
-### 2. Netlify 🔷
+### 4. Netlify 🔷
 
 **Via Dashboard:**
 
@@ -80,14 +108,14 @@ npm run build
 netlify deploy --prod --dir=dist
 ```
 
-### 3. GitHub Pages 📄
+### 5. GitHub Pages 📄
 
 1. Atualize `vite.config.js`:
 
 ```javascript
 export default defineConfig({
   plugins: [react()],
-  base: "/modelo-agrotech/", // nome do seu repositório
+  base: "/site-priscila-borges-moraes/", // nome do seu repositório
 });
 ```
 

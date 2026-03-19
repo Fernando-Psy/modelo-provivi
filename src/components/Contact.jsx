@@ -12,7 +12,7 @@ function Contact() {
     e.preventDefault();
     // Here you can add the form submission logic
     console.log("Form submitted:", formData);
-    alert("Message sent successfully! We will contact you soon.");
+    alert("Mensagem enviada com sucesso! Em breve entrarei em contato.");
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
@@ -27,11 +27,10 @@ function Contact() {
     <section id="contact" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="section-title">Get in Touch</h2>
+          <h2 className="section-title">Contato</h2>
           <p className="section-subtitle max-w-2xl mx-auto">
-            Ready to revolutionize your agricultural production? Fill out the
-            form below and our team will contact you to schedule a
-            demonstration.
+            Para agendar atendimento, tirar dúvidas ou solicitar informações,
+            preencha o formulário abaixo.
           </p>
         </div>
 
@@ -40,7 +39,7 @@ function Contact() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-                Contact Information
+                Informações de contato
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
@@ -59,7 +58,9 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-600">contato@agrotech.com.br</p>
+                    <p className="text-gray-600">
+                      psicologapriscilaborgesmoraes@gmail.com
+                    </p>
                   </div>
                 </div>
 
@@ -78,8 +79,10 @@ function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                    <p className="text-gray-600">(11) 9999-9999</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">
+                      Celular
+                    </h4>
+                    <p className="text-gray-600">(21) 97621-7918</p>
                   </div>
                 </div>
 
@@ -100,20 +103,24 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">
-                      Address
+                      Endereço
                     </h4>
-                    <p className="text-gray-600">São Paulo, SP - Brasil</p>
+                    <p className="text-gray-600">
+                      Rua Rondônia n 28, Pauline — Belford Roxo, RJ — 26170-440
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-primary-50 p-6 rounded-xl">
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Business Hours
-              </h4>
-              <p className="text-gray-600">Monday to Friday: 8am to 6pm</p>
-              <p className="text-gray-600">Saturday: 8am to 12pm</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Horários</h4>
+              <p className="text-gray-600">
+                Atendimentos com horário agendado.
+              </p>
+              <p className="text-gray-600">
+                Online e presencial (conforme disponibilidade).
+              </p>
             </div>
           </div>
 
@@ -125,7 +132,7 @@ function Contact() {
                   htmlFor="name"
                   className="block text-sm font-medium text-gray-700 mb-2"
                 >
-                  Full Name *
+                  Nome completo *
                 </label>
                 <input
                   type="text"
@@ -135,7 +142,7 @@ function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
-                  placeholder="Your name"
+                  placeholder="Seu nome"
                 />
               </div>
 
@@ -144,7 +151,7 @@ function Contact() {
                   htmlFor="email"
                   className="block text-sm font-medium text-gray-700 mb-2"
                 >
-                  Email *
+                  E-mail *
                 </label>
                 <input
                   type="email"
@@ -163,7 +170,7 @@ function Contact() {
                   htmlFor="phone"
                   className="block text-sm font-medium text-gray-700 mb-2"
                 >
-                  Phone
+                  Celular
                 </label>
                 <input
                   type="tel"
@@ -172,7 +179,7 @@ function Contact() {
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
-                  placeholder="(11) 99999-9999"
+                  placeholder="(21) 99999-9999"
                 />
               </div>
 
@@ -181,7 +188,7 @@ function Contact() {
                   htmlFor="message"
                   className="block text-sm font-medium text-gray-700 mb-2"
                 >
-                  Message *
+                  Mensagem *
                 </label>
                 <textarea
                   id="message"
@@ -191,12 +198,12 @@ function Contact() {
                   onChange={handleChange}
                   rows="4"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all resize-none"
-                  placeholder="Tell us more about your needs..."
+                  placeholder="Conte um pouco sobre sua necessidade..."
                 />
               </div>
 
               <button type="submit" className="btn-primary w-full">
-                Send Message
+                Enviar mensagem
               </button>
             </form>
           </div>

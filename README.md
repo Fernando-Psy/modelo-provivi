@@ -1,6 +1,6 @@
-# AgroTech - Plataforma
+# Priscila Borges Moraes — Site profissional
 
-Projeto React + TailwindCSS para plataforma de soluções sustentáveis para agricultura.
+Projeto React + TailwindCSS (Vite) para site profissional de psicologia, com páginas institucionais e conteúdo.
 
 ## 🚀 Tecnologias
 
@@ -19,7 +19,7 @@ Projeto React + TailwindCSS para plataforma de soluções sustentáveis para agr
 1. Clone o repositório ou navegue até a pasta do projeto:
 
 ```bash
-cd /mnt/projetos/front_end/modelo-agrotech
+cd /mnt/projetos/front_end/offline/modelo-provivi
 ```
 
 2. Instale as dependências:
@@ -121,7 +121,7 @@ npm run deploy
 ## 📁 Estrutura do Projeto
 
 ```
-modelo-agrotech/
+site-priscila-borges-moraes/
 ├── src/
 │   ├── components/
 │   │   ├── Header.jsx       # Cabeçalho com navegação
@@ -183,9 +183,9 @@ Todos os componentes estão em `src/components/` e podem ser facilmente personal
 - ✅ Otimizado para SEO
 - ✅ Performance otimizada
 
-## 🤝 Suporte
+## 🤝 Contato
 
-Para dúvidas ou suporte, entre em contato através do formulário na página ou pelo email: contato@agrotech.com.br
+E-mail: psicologapriscilaborgesmoraes@gmail.com
 
 ## 📄 Licença
 

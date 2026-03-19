@@ -24,17 +24,16 @@ function About() {
           {/* Content */}
           <div className="order-1 md:order-2 space-y-6">
             <div className="space-y-4">
-              <h2 className="section-title">About Our Mission</h2>
+              <h2 className="section-title">Sobre</h2>
               <p className="text-lg text-gray-600">
-                We are pioneers in developing sustainable solutions for
-                agricultural pest control. Our pheromone-based technology offers
-                an effective and ecological alternative to traditional
-                pesticides.
+                Sou psicóloga com experiência em atendimentos clínicos e em
+                saúde mental, incluindo Autismo (TEA), transtornos mentais
+                graves, psicodiagnóstico e avaliação psicológica e
+                neuropsicológica.
               </p>
               <p className="text-lg text-gray-600">
-                With years of research and development, we create products that
-                protect your crops without harming the environment, ensuring
-                healthier and more sustainable production.
+                Formação em Psicologia (Universidade Estácio de Sá, 2019.1) e
+                formação em Nutrição (Universidade Estácio de Sá, 02/2026).
               </p>
             </div>
 
@@ -55,11 +54,11 @@ function About() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">
-                    Proven Experience
+                    Experiência clínica e institucional
                   </h3>
                   <p className="text-gray-600">
-                    Over 10 years developing innovative solutions for
-                    agriculture.
+                    Vivência em CAPSi, saúde mental, psicologia hospitalar e do
+                    trânsito, além de atuação organizacional.
                   </p>
                 </div>
               </div>
@@ -80,11 +79,11 @@ function About() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">
-                    Environmental Commitment
+                    Avaliação psicológica e neuropsicológica
                   </h3>
                   <p className="text-gray-600">
-                    100% of our solutions are developed respecting the
-                    ecosystem.
+                    Experiência com avaliação de perfil profissional, atenção e
+                    inteligência, e psicodiagnóstico.
                   </p>
                 </div>
               </div>
@@ -105,10 +104,11 @@ function About() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">
-                    Specialized Support
+                    Cuidado baseado em evidências
                   </h3>
                   <p className="text-gray-600">
-                    Technical team ready to assist in all implementation stages.
+                    Atuação com TCC e formações complementares em saúde mental,
+                    ABA e neurociência do comportamento.
                   </p>
                 </div>
               </div>

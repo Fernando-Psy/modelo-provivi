@@ -5,70 +5,70 @@ function FAQ() {
 
   const faqs = [
     {
-      category: "General",
+      category: "Geral",
       questions: [
         {
-          q: "What is AgroTech?",
-          a: "AgroTech is a platform that offers sustainable solutions for agriculture, using biological control technology through pheromones for pest management.",
+          q: "Como funciona o atendimento psicológico?",
+          a: "O atendimento é realizado por sessões com horário agendado, com escuta qualificada e definição de objetivos terapêuticos. O processo é individualizado conforme sua demanda.",
         },
         {
-          q: "How does biological control work?",
-          a: "Biological control uses natural pheromones that confuse pest insects, preventing their reproduction without using chemical pesticides harmful to the environment.",
+          q: "Você atende online?",
+          a: "Sim. Também realizo teleatendimentos, quando indicado e conforme disponibilidade.",
         },
         {
-          q: "Which crops can benefit?",
-          a: "Our technology can be applied to various crops, including corn, soybeans, sugarcane, vegetables and fruit trees.",
+          q: "Você atende todas as idades?",
+          a: "Sim. Tenho experiência com atendimentos clínicos em diferentes faixas etárias.",
         },
       ],
     },
     {
-      category: "Implementation",
+      category: "Atendimento",
       questions: [
         {
-          q: "How long does it take to implement?",
-          a: "Implementation is quick and can be done in 1-2 days, depending on the area size. Our technical team offers complete support throughout the entire process.",
+          q: "Como faço para agendar?",
+          a: "Você pode preencher o formulário na página inicial ou enviar mensagem pelo contato. Após isso, combinamos horários e orientações para o atendimento.",
         },
         {
-          q: "Is special training required?",
-          a: "No. Our system is easy to use. We provide basic training and instructional materials to ensure correct use.",
+          q: "O atendimento é presencial?",
+          a: "Há possibilidade de atendimento presencial e on-line (conforme disponibilidade).",
         },
         {
-          q: "What is the durability of the products?",
-          a: "Our devices have a durability of 90 to 120 days, depending on weather conditions and type of crop.",
+          q: "Você trabalha com TCC?",
+          a: "Sim. Tenho formação em Terapia Cognitivo-Comportamental e utilizo estratégias alinhadas ao seu contexto e objetivos.",
         },
       ],
     },
     {
-      category: "Results",
+      category: "Avaliações",
       questions: [
         {
-          q: "When will I see results?",
-          a: "The first results can be observed 2-3 weeks after installation. Complete control is achieved in 4-6 weeks.",
+          q: "O que é psicodiagnóstico?",
+          a: "É um processo de avaliação que busca compreender o quadro e as necessidades da pessoa, auxiliando em hipóteses e encaminhamentos quando necessário.",
         },
         {
-          q: "What is the efficacy rate?",
-          a: "Our products show an efficacy rate of up to 98% in controlling target pests when applied correctly.",
+          q: "O que é avaliação neuropsicológica?",
+          a: "É uma avaliação focada em funções cognitivas (como atenção, memória e linguagem), auxiliando na compreensão do funcionamento e em recomendações.",
         },
         {
-          q: "Is there a results guarantee?",
-          a: "Yes. We offer a satisfaction guarantee and our team monitors results to ensure successful implementation.",
+          q: "Como funciona a devolutiva?",
+          a: "Ao final da avaliação, é feita uma devolutiva com explicação do processo, resultados e orientações de próximos passos.",
         },
       ],
     },
     {
-      category: "Costs and Support",
+      category: "Valores e suporte",
       questions: [
         {
-          q: "What is the cost of the service?",
-          a: "Costs vary according to the area size and type of crop. Contact us for a personalized quote.",
+          q: "Como são os valores?",
+          a: "Os valores variam conforme modalidade e demanda (psicoterapia, avaliação, etc.). Entre em contato para combinarmos detalhes.",
         },
         {
-          q: "Are there savings compared to traditional methods?",
-          a: "Yes. Producers report savings of up to 40% compared to traditional pest control methods.",
+          q: "Você oferece palestras e conteúdos?",
+          a: "Sim. Tenho experiência como palestrante e com participação em jornadas e eventos sobre temas de saúde mental.",
         },
         {
-          q: "What support is offered?",
-          a: "We offer complete 24/7 technical support, including monitoring, maintenance and specialized agronomic advisory.",
+          q: "Como tirar dúvidas rápidas?",
+          a: "Você pode me enviar uma mensagem pelo formulário de contato. Assim que possível, retorno com orientações.",
         },
       ],
     },
@@ -84,10 +84,11 @@ function FAQ() {
       <section className="bg-gradient-to-br from-primary-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Frequently Asked Questions
+            Perguntas frequentes
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Find quick answers to the most common questions about our solutions.
+            Respostas rápidas para dúvidas comuns sobre atendimento e
+            avaliações.
           </p>
         </div>
       </section>
@@ -146,13 +147,13 @@ function FAQ() {
           {/* Contact Section */}
           <div className="mt-16 bg-primary-50 rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Didn't Find Your Answer?
+              Não encontrou sua resposta?
             </h2>
             <p className="text-gray-600 mb-6">
-              Our team is ready to clarify all your questions.
+              Me envie uma mensagem e eu retorno assim que possível.
             </p>
             <a href="/#contact" className="btn-primary inline-block">
-              Get in Touch
+              Entrar em contato
             </a>
           </div>
 
@@ -161,7 +162,7 @@ function FAQ() {
               href="/"
               className="text-primary-600 hover:text-primary-700 font-semibold"
             >
-              ← Back to Home
+              ← Voltar ao início
             </a>
           </div>
         </div>

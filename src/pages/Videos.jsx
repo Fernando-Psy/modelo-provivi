@@ -5,13 +5,13 @@ function Videos() {
 
   const videoCategories = [
     {
-      category: "Product Demonstrations",
+      category: "Palestras e jornadas",
       videos: [
         {
           id: "demo1",
-          title: "How AgroTech Works - Complete Guide",
+          title: "Impactos do diagnóstico na saúde mental da família",
           description:
-            "Learn about our biological control technology and how it transforms agriculture sustainably.",
+            "Conteúdo psicoeducativo sobre acolhimento, adaptação e caminhos possíveis após um diagnóstico.",
           thumbnail: "🎬",
           duration: "12:34",
           views: "15.2K",
@@ -19,9 +19,9 @@ function Videos() {
         },
         {
           id: "demo2",
-          title: "Field Application Tutorial",
+          title: "Autismo (TEA): manejo e estratégias no cotidiano",
           description:
-            "Step-by-step guide on how to apply our products in the field effectively.",
+            "Orientações sobre rotina, comunicação e suporte, com foco em cuidado e respeito às diferenças.",
           thumbnail: "🔧",
           duration: "8:45",
           views: "8.5K",
@@ -29,9 +29,9 @@ function Videos() {
         },
         {
           id: "demo3",
-          title: "Monitoring and Results Analysis",
+          title: "Seletividade alimentar e saúde mental",
           description:
-            "Learn how to monitor your crops and analyze the results of our biological control.",
+            "Discussão sobre fatores sensoriais, emocionais e comportamentais que podem influenciar a alimentação.",
           thumbnail: "📊",
           duration: "10:20",
           views: "12.1K",
@@ -40,13 +40,13 @@ function Videos() {
       ],
     },
     {
-      category: "Success Stories",
+      category: "Psicoeducação",
       videos: [
         {
           id: "story1",
-          title: "Coffee Producer Increases Productivity by 35%",
+          title: "Ansiedade: sinais, gatilhos e estratégias de enfrentamento",
           description:
-            "See how João Silva transformed his coffee plantation with AgroTech technology.",
+            "Um panorama inicial sobre ansiedade e hábitos que podem apoiar o cuidado no dia a dia.",
           thumbnail: "☕",
           duration: "6:15",
           views: "22.3K",
@@ -54,9 +54,9 @@ function Videos() {
         },
         {
           id: "story2",
-          title: "Sustainable Soybean Farming",
+          title: "Saúde mental no trabalho: autocuidado e limites",
           description:
-            "Maria Santos shares her experience reducing costs by 40% while protecting the environment.",
+            "Reflexões sobre bem-estar no contexto corporativo e práticas de cuidado possíveis na rotina.",
           thumbnail: "🌱",
           duration: "9:30",
           views: "18.7K",
@@ -65,13 +65,13 @@ function Videos() {
       ],
     },
     {
-      category: "Education & Training",
+      category: "Autismo e Neuropsicologia",
       videos: [
         {
           id: "edu1",
-          title: "Introduction to Biological Control",
+          title: "Entendendo funções cognitivas: atenção e memória",
           description:
-            "Understand the fundamentals of biological pest control and its environmental benefits.",
+            "Conteúdo introdutório sobre funções cognitivas e como elas aparecem no cotidiano.",
           thumbnail: "📚",
           duration: "15:42",
           views: "31.5K",
@@ -79,9 +79,9 @@ function Videos() {
         },
         {
           id: "edu2",
-          title: "Pheromones in Agriculture",
+          title: "O que é avaliação neuropsicológica?",
           description:
-            "Complete webinar on how pheromones work and their application in agriculture.",
+            "Quando é indicada, como funciona o processo e o que esperar das etapas de avaliação e devolutiva.",
           thumbnail: "🔬",
           duration: "45:18",
           views: "9.8K",
@@ -89,9 +89,9 @@ function Videos() {
         },
         {
           id: "edu3",
-          title: "Integrated Pest Management",
+          title: "Psicodiagnóstico: um caminho para compreender e cuidar",
           description:
-            "Learn how to integrate our solutions into your pest management plan.",
+            "Entenda o objetivo do psicodiagnóstico e como ele pode apoiar decisões clínicas e de cuidado.",
           thumbnail: "🎓",
           duration: "20:15",
           views: "14.2K",
@@ -111,11 +111,10 @@ function Videos() {
       <section className="bg-gradient-to-br from-primary-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Video Library
+            Vídeos
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Learn more about our solutions through tutorials, success stories,
-            and educational content.
+            Conteúdos, orientações e materiais psicoeducativos.
           </p>
         </div>
       </section>
@@ -176,7 +175,7 @@ function Videos() {
                             <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                             <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                           </svg>
-                          <span>{video.views} views</span>
+                          <span>{video.views} visualizações</span>
                         </div>
                       </div>
                     </div>
@@ -189,14 +188,14 @@ function Videos() {
           {/* CTA Section */}
           <div className="mt-16 bg-primary-50 rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Want to See Our Solutions in Action?
+              Quer conversar sobre atendimento?
             </h2>
             <p className="text-gray-600 mb-6">
-              Schedule a personalized demonstration and see how we can help your
-              agricultural production.
+              Me conte um pouco sobre sua necessidade e vamos avaliar o melhor
+              caminho.
             </p>
             <a href="/#contact" className="btn-primary inline-block">
-              Request a Demo
+              Agendar contato
             </a>
           </div>
 
@@ -205,7 +204,7 @@ function Videos() {
               href="/"
               className="text-primary-600 hover:text-primary-700 font-semibold"
             >
-              ← Back to Home
+              ← Voltar ao início
             </a>
           </div>
         </div>
@@ -259,7 +258,7 @@ function Videos() {
               <div className="flex items-center gap-4 text-sm text-gray-500">
                 <span>{selectedVideo.duration}</span>
                 <span>•</span>
-                <span>{selectedVideo.views} views</span>
+                <span>{selectedVideo.views} visualizações</span>
               </div>
             </div>
           </div>

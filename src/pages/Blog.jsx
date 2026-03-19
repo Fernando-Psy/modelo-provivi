@@ -2,29 +2,29 @@ function Blog() {
   const posts = [
     {
       id: 1,
-      title: "The Future of Sustainable Agriculture",
-      date: "February 10, 2026",
+      title: "Impactos de um diagnóstico na saúde mental da família",
+      date: "10 de fevereiro de 2026",
       excerpt:
-        "Discover how technology is revolutionizing the way we produce food sustainably.",
-      category: "Sustainability",
+        "Entenda como acolhimento, psicoeducação e rede de apoio podem ajudar no processo de adaptação e cuidado.",
+      category: "Saúde mental",
       image: "🌱",
     },
     {
       id: 2,
-      title: "Biological Control: An Effective Alternative",
-      date: "February 05, 2026",
+      title: "Autismo (TEA): orientações e manejo no dia a dia",
+      date: "05 de fevereiro de 2026",
       excerpt:
-        "Understand how biological control can be more efficient than traditional pesticides.",
-      category: "Technology",
+        "Dicas práticas sobre rotina, comunicação e estratégias para lidar com desafios comuns, respeitando cada singularidade.",
+      category: "Autismo",
       image: "🔬",
     },
     {
       id: 3,
-      title: "Reducing Costs with Natural Methods",
-      date: "January 28, 2026",
+      title: "Seletividade alimentar: quando olhar além do prato",
+      date: "28 de janeiro de 2026",
       excerpt:
-        "See how producers are saving up to 40% with sustainable solutions.",
-      category: "Economy",
+        "Como fatores emocionais, sensoriais e de desenvolvimento podem influenciar a alimentação e o bem-estar.",
+      category: "Psicoeducação",
       image: "💰",
     },
   ];
@@ -35,11 +35,11 @@ function Blog() {
       <section className="bg-gradient-to-br from-primary-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Blog AgroTech
+            Blog
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Stay up to date with the latest news, trends and insights about
-            sustainable agriculture.
+            Conteúdos e reflexões sobre saúde mental, psicoterapia e
+            psicoeducação.
           </p>
         </div>
       </section>
@@ -68,7 +68,7 @@ function Blog() {
                   </h3>
                   <p className="text-gray-600 mb-4">{post.excerpt}</p>
                   <button className="text-primary-600 font-semibold hover:text-primary-700 transition-colors">
-                    Read more →
+                    Ler mais →
                   </button>
                 </div>
               </article>
@@ -77,9 +77,9 @@ function Blog() {
 
           {/* Empty State for more posts */}
           <div className="mt-12 text-center">
-            <p className="text-gray-500 mb-4">More articles coming soon!</p>
+            <p className="text-gray-500 mb-4">Mais artigos em breve!</p>
             <a href="/" className="btn-primary inline-block">
-              Back to Home
+              Voltar ao início
             </a>
           </div>
         </div>

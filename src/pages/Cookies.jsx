@@ -5,10 +5,10 @@ function Cookies() {
       <section className="bg-gradient-to-br from-primary-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Cookie Policy
+            Política de Cookies
           </h1>
           <p className="text-lg text-gray-600">
-            Last updated: February 13, 2026
+            Última atualização: 19 de março de 2026
           </p>
         </div>
       </section>
@@ -19,76 +19,73 @@ function Cookies() {
           <div className="prose prose-lg max-w-none space-y-8">
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                1. What are Cookies?
+                1. O que são cookies?
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Cookies are small text files stored on your device when you
-                visit a website. They help improve your experience, remembering
-                your preferences and providing personalized functionalities.
+                Cookies são pequenos arquivos de texto armazenados no seu
+                dispositivo quando você visita um site. Eles ajudam a melhorar
+                sua experiência, lembrando preferências e apoiando
+                funcionalidades.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                2. How We Use Cookies
+                2. Como usamos cookies
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                We use cookies to:
+                Podemos usar cookies para:
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
-                <li>Keep you logged into your account</li>
-                <li>Remember your preferences and settings</li>
-                <li>Analyze how you use our platform</li>
-                <li>Improve our services and functionalities</li>
-                <li>Personalize content and ads</li>
-                <li>Ensure platform security</li>
+                <li>Lembrar preferências e configurações</li>
+                <li>Analisar uso do site e melhorar desempenho</li>
+                <li>Garantir segurança e prevenir abuso</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                3. Types of Cookies We Use
+                3. Tipos de cookies
               </h2>
 
               <div className="space-y-6">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    Essential Cookies
+                    Cookies essenciais
                   </h3>
                   <p className="text-gray-600">
-                    Necessary for the basic functioning of the platform. Cannot
-                    be disabled. Include authentication and security cookies.
+                    Necessários para o funcionamento básico do site. Podem
+                    incluir cookies de segurança.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    Performance Cookies
+                    Cookies de desempenho
                   </h3>
                   <p className="text-gray-600">
-                    Collect information about how you use the platform, such as
-                    pages visited and browsing time. Help us improve
-                    performance.
+                    Coletam informações sobre uso do site (páginas visitadas,
+                    tempo de navegação) para ajudar a melhorar o desempenho.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    Functional Cookies
+                    Cookies funcionais
                   </h3>
                   <p className="text-gray-600">
-                    Remember your choices and preferences (such as language,
-                    region) to provide a more personalized experience.
+                    Lembram escolhas e preferências para uma experiência mais
+                    personalizada.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    Marketing Cookies
+                    Cookies de marketing
                   </h3>
                   <p className="text-gray-600">
-                    Used to track visitors across sites and display relevant
-                    ads. May be set by us or by advertising partners.
+                    Podem ser usados para medir campanhas e exibir conteúdo
+                    relevante. Podem ser definidos por terceiros.
                   </p>
                 </div>
               </div>
@@ -96,46 +93,43 @@ function Cookies() {
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                4. Third-Party Cookies
+                4. Cookies de terceiros
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                We also use third-party services that may set cookies:
+                Podemos utilizar serviços de terceiros que definem cookies:
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
                 <li>
-                  <strong>Google Analytics:</strong> For traffic analysis and
-                  behavior
+                  <strong>Ferramentas de análise:</strong> para métricas de uso
+                  e desempenho
                 </li>
                 <li>
-                  <strong>Payment Processors:</strong> For transactions secure
-                </li>
-                <li>
-                  <strong>Social Networks:</strong> For integration with social
-                  platforms
+                  <strong>Redes sociais:</strong> integrações com plataformas
+                  sociais
                 </li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                5. Cookie Duration
+                5. Duração
               </h2>
               <div className="space-y-4">
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Session Cookies
+                    Cookies de sessão
                   </h3>
                   <p className="text-gray-600">
-                    Are temporary and expire when you close the browser.
+                    Temporários e expiram quando você fecha o navegador.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Persistent Cookies
+                    Cookies persistentes
                   </h3>
                   <p className="text-gray-600">
-                    Remain on your device for a defined period or until you
-                    delete them manually.
+                    Permanecem por um período definido ou até que você os exclua
+                    manualmente.
                   </p>
                 </div>
               </div>
@@ -143,75 +137,69 @@ function Cookies() {
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                6. How to Manage Cookies
+                6. Como gerenciar cookies
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                You can control and manage cookies in the following ways:
+                Você pode controlar e gerenciar cookies de várias formas:
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
-                <li>
-                  Browser settings: Most browsers allow blocking or deleting
-                  cookies
-                </li>
-                <li>Opt-out tools: Some services offer exclusion options</li>
-                <li>
-                  Platform preferences: Manage your preferences in privacy
-                  settings
-                </li>
+                <li>Configurações do navegador: bloquear ou apagar cookies</li>
+                <li>Ferramentas de opt-out: alguns serviços oferecem opções</li>
               </ul>
               <div className="mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-400">
                 <p className="text-gray-700">
-                  <strong>Note:</strong> Disabling cookies may affect the
-                  platform functionality and limit your experience.
+                  <strong>Nota:</strong> Desativar cookies pode afetar
+                  funcionalidades e limitar sua experiência.
                 </p>
               </div>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                7. How to Disable Cookies in Browser
+                7. Como desativar no navegador
               </h2>
               <div className="space-y-3 text-gray-600">
                 <p>
-                  <strong>Google Chrome:</strong> Settings → Privacy and
-                  security → Cookies
+                  <strong>Google Chrome:</strong> Configurações → Privacidade e
+                  segurança → Cookies
                 </p>
                 <p>
-                  <strong>Firefox:</strong> Settings → Privacy and Security →
-                  Cookies
+                  <strong>Firefox:</strong> Configurações → Privacidade e
+                  segurança → Cookies
                 </p>
                 <p>
-                  <strong>Safari:</strong> Preferences → Privacy → Cookies
+                  <strong>Safari:</strong> Preferências → Privacidade → Cookies
                 </p>
                 <p>
-                  <strong>Edge:</strong> Settings → Cookies and site permissions
+                  <strong>Edge:</strong> Configurações → Cookies e permissões do
+                  site
                 </p>
               </div>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                8. Updates to this Policy
+                8. Atualizações
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                We may update this Cookie Policy periodically to reflect changes
-                in our practice or for legal reasons. We recommend reviewing
-                this page regularly.
+                Esta Política pode ser atualizada periodicamente. Recomendamos
+                revisar esta página de tempos em tempos.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                9. Contact
+                9. Contato
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                For questions about cookies, please contact:
+                Para dúvidas sobre cookies, entre em contato:
               </p>
               <div className="mt-4 p-6 bg-gray-50 rounded-lg">
                 <p className="text-gray-700">
-                  <strong>Email:</strong> privacidade@agrotech.com.br
+                  <strong>E-mail:</strong>{" "}
+                  psicologapriscilaborgesmoraes@gmail.com
                   <br />
-                  <strong>Phone:</strong> (11) 9999-9999
+                  <strong>Celular:</strong> (21) 97621-7918
                 </p>
               </div>
             </div>
@@ -222,7 +210,7 @@ function Cookies() {
               href="/"
               className="text-primary-600 hover:text-primary-700 font-semibold"
             >
-              ← Back to Home
+              ← Voltar ao início
             </a>
           </div>
         </div>

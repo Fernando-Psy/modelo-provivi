@@ -7,11 +7,11 @@ function Header() {
   const isHomePage = location.pathname === "/";
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Features", href: isHomePage ? "#features" : "/#features" },
-    { name: "About", href: isHomePage ? "#about" : "/#about" },
-    { name: "Videos", href: "/videos" },
-    { name: "Contact", href: isHomePage ? "#contact" : "/#contact" },
+    { name: "Início", href: "/" },
+    { name: "Atuação", href: isHomePage ? "#features" : "/#features" },
+    { name: "Sobre", href: isHomePage ? "#about" : "/#about" },
+    { name: "Vídeos", href: "/videos" },
+    { name: "Contato", href: isHomePage ? "#contact" : "/#contact" },
   ];
 
   return (
@@ -21,7 +21,7 @@ function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold text-primary-600">
-              AgroTech
+              Priscila Borges
             </Link>
           </div>
 
@@ -63,7 +63,7 @@ function Header() {
               href={isHomePage ? "#contact" : "/#contact"}
               className="btn-primary"
             >
-              Get Started
+              Agendar contato
             </a>
           </div>
 
@@ -126,7 +126,7 @@ function Header() {
                 href={isHomePage ? "#contact" : "/#contact"}
                 className="btn-primary w-full block text-center"
               >
-                Get Started
+                Agendar contato
               </a>
             </div>
           </div>

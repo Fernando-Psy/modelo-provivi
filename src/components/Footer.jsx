@@ -3,19 +3,19 @@ function Footer() {
 
   const footerLinks = {
     company: [
-      { name: "About Us", href: "#about" },
-      { name: "Features", href: "#features" },
-      { name: "Contact", href: "#contact" },
+      { name: "Sobre", href: "#about" },
+      { name: "Áreas de atuação", href: "#features" },
+      { name: "Contato", href: "#contact" },
     ],
     resources: [
       { name: "Blog", href: "/blog" },
-      { name: "Videos", href: "/videos" },
-      { name: "Documentation", href: "/documentacao" },
-      { name: "FAQ", href: "/faq" },
+      { name: "Vídeos", href: "/videos" },
+      { name: "Orientações", href: "/documentacao" },
+      { name: "Perguntas frequentes", href: "/faq" },
     ],
     legal: [
-      { name: "Privacy", href: "/privacidade" },
-      { name: "Terms of Use", href: "/termos" },
+      { name: "Privacidade", href: "/privacidade" },
+      { name: "Termos de uso", href: "/termos" },
       { name: "Cookies", href: "/cookies" },
     ],
   };
@@ -26,29 +26,19 @@ function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-primary-400">AgroTech</h3>
+            <h3 className="text-2xl font-bold text-primary-400">
+              Priscila Borges Moraes
+            </h3>
             <p className="text-gray-400">
-              Sustainable solutions for modern agriculture. Technology that
-              respects the environment.
+              Psicologia clínica com foco em acolhimento, ética e cuidado
+              baseado em evidências.
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.instagram.com/priscilabpsi/"
                 className="w-10 h-10 bg-gray-800 hover:bg-primary-600 rounded-lg flex items-center justify-center transition-colors duration-200"
-                aria-label="Facebook" target="_blank"
-              >
-                <svg
-                  className="w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
-                </svg>
-              </a>
-              <a
-                href="https://www.instagram.com/"
-                className="w-10 h-10 bg-gray-800 hover:bg-primary-600 rounded-lg flex items-center justify-center transition-colors duration-200"
-                aria-label="Instagram" target="_blank"
+                aria-label="Instagram"
+                target="_blank"
               >
                 <svg
                   className="w-5 h-5"
@@ -59,9 +49,10 @@ function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/priscila-borges-moraes-703563103/"
                 className="w-10 h-10 bg-gray-800 hover:bg-primary-600 rounded-lg flex items-center justify-center transition-colors duration-200"
-                aria-label="LinkedIn" target="_blank"
+                aria-label="LinkedIn"
+                target="_blank"
               >
                 <svg
                   className="w-5 h-5"
@@ -77,7 +68,7 @@ function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Company</h4>
+            <h4 className="font-semibold text-lg mb-4">Site</h4>
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
@@ -94,7 +85,7 @@ function Footer() {
 
           {/* Resources */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Resources</h4>
+            <h4 className="font-semibold text-lg mb-4">Conteúdos</h4>
             <ul className="space-y-2">
               {footerLinks.resources.map((link) => (
                 <li key={link.name}>
@@ -131,10 +122,11 @@ function Footer() {
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {currentYear} AgroTech. All rights reserved.
+              © {currentYear} Priscila Borges Moraes. Todos os direitos
+              reservados.
             </p>
             <p className="text-gray-400 text-sm">
-              Developed with 💚 for a sustainable future
+              Desenvolvido com cuidado para acolher você
             </p>
           </div>
         </div>

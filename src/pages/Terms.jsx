@@ -5,10 +5,10 @@ function Terms() {
       <section className="bg-gradient-to-br from-primary-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Terms of Use
+            Termos de Uso
           </h1>
           <p className="text-lg text-gray-600">
-            Last updated: February 13, 2026
+            Última atualização: 19 de março de 2026
           </p>
         </div>
       </section>
@@ -19,156 +19,138 @@ function Terms() {
           <div className="prose prose-lg max-w-none space-y-8">
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                1. Acceptance of Terms
+                1. Aceitação
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                By accessing and using the AgroTech platform, you agree to
-                comply with and be bound by these Terms of Use. If you do not
-                agree with any part of these terms, you should not use our
-                platform.
+                Ao acessar e utilizar este site, você concorda com estes Termos
+                de Uso. Se não concordar com qualquer parte, recomendamos que
+                não utilize o site.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                2. Service Description
+                2. Descrição do site
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                AgroTech provides a platform for sustainable agricultural
-                solutions, including:
+                Este site disponibiliza informações institucionais, conteúdos e
+                canais de contato relacionados à atuação profissional.
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-600 mt-4">
-                <li>Access to biological control products</li>
-                <li>Specialized technical consulting</li>
-                <li>Results monitoring and analysis</li>
-                <li>Continuous technical support</li>
+                <li>Informações sobre áreas de atuação</li>
+                <li>Materiais e conteúdos de apoio</li>
+                <li>Formulário e dados de contato</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                3. Registration and User Account
+                3. Uso do formulário
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                To use our services, you must:
+                Ao enviar uma mensagem pelo formulário, você concorda em:
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
-                <li>Provide true and updated information</li>
-                <li>Maintain confidentiality of your credentials</li>
-                <li>Be responsible for all activities on your account</li>
-                <li>Notify immediately about unauthorized use</li>
+                <li>Fornecer informações verdadeiras e atualizadas</li>
+                <li>Não enviar conteúdo ilícito, ofensivo ou malicioso</li>
+                <li>Respeitar a finalidade do canal de contato</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                4. Acceptable Use
+                4. Uso aceitável
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                You agree NOT to:
+                Você concorda em NÃO:
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
-                <li>Use the platform for illegal purposes</li>
-                <li>Attempt to access restricted areas of the system</li>
-                <li>Interfere with the platform's operation</li>
-                <li>Copy or distribute content without authorization</li>
-                <li>Use other users' data improperly</li>
-                <li>Send spam or malicious content</li>
+                <li>Utilizar o site para fins ilegais</li>
+                <li>Tentar acessar áreas restritas</li>
+                <li>Interferir no funcionamento do site</li>
+                <li>Distribuir spam ou conteúdo malicioso</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                5. Intellectual Property
+                5. Propriedade intelectual
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                All platform content, including texts, graphics, logos, images
-                and software, is the property of AgroTech or its licensors and
-                is protected by intellectual property laws.
+                Os conteúdos do site (textos, marca e elementos visuais) são
+                protegidos e não podem ser copiados ou redistribuídos sem
+                autorização, salvo quando permitido por lei.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                6. Payments and Refunds
+                6. Responsabilidades
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Service prices are subject to change. Payment must be made
-                according to the accepted methods on the platform. Refund
-                policies are applied as specified at the time of contracting.
+                As informações aqui apresentadas têm caráter informativo. O uso
+                do site não cria garantia de resultados e não substitui
+                orientações profissionais individualizadas.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                7. Warranties and Limitations
+                7. Limitação de responsabilidade
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                We offer quality warranty for our products as specified in the
-                contracts. However, results may vary depending on specific
-                conditions of each property. We do not guarantee specific
-                results without prior technical evaluation.
+                Na medida permitida por lei, não nos responsabilizamos por danos
+                indiretos decorrentes do uso ou da impossibilidade de uso do
+                site.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                8. Limitation of Liability
+                8. Alterações
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                AgroTech shall not be liable for indirect, incidental or
-                consequential damages resulting from the use or inability to use
-                the platform, except when required by law.
+                Podemos atualizar estes Termos a qualquer momento. O uso
+                continuado do site após alterações representa aceitação das
+                mudanças.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                9. Modifications to Terms
+                9. Encerramento
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                We reserve the right to modify these Terms at any time.
-                Significant changes will be communicated in advance. Continued
-                use of the platform after changes constitutes acceptance of the
-                new terms.
+                Podemos suspender o acesso ao site em caso de uso indevido,
+                manutenção ou motivos técnicos.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                10. Termination
+                10. Lei aplicável
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                We may suspend or terminate your access to the platform for
-                violation of these Terms. You may cancel your account at any
-                time through the settings or by contacting us.
+                Estes Termos são regidos pelas leis brasileiras.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                11. Applicable Law
+                11. Contato
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                These Terms are governed by Brazilian laws. Any dispute will be
-                resolved in the competent courts of Brazil.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                12. Contact
-              </h2>
-              <p className="text-gray-600 leading-relaxed">
-                For questions about these Terms, please contact:
+                Para dúvidas sobre estes Termos, entre em contato:
               </p>
               <div className="mt-4 p-6 bg-gray-50 rounded-lg">
                 <p className="text-gray-700">
-                  <strong>Email:</strong> juridico@agrotech.com.br
+                  <strong>E-mail:</strong>{" "}
+                  psicologapriscilaborgesmoraes@gmail.com
                   <br />
-                  <strong>Phone:</strong> (11) 9999-9999
+                  <strong>Celular:</strong> (21) 97621-7918
                   <br />
-                  <strong>Address:</strong> São Paulo, SP - Brazil
+                  <strong>Endereço:</strong> Rua Rondônia n 28, Pauline —
+                  Belford Roxo, RJ — 26170-440
                 </p>
               </div>
             </div>
@@ -179,7 +161,7 @@ function Terms() {
               href="/"
               className="text-primary-600 hover:text-primary-700 font-semibold"
             >
-              ← Back to Home
+              ← Voltar ao início
             </a>
           </div>
         </div>

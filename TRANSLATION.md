@@ -1,75 +1,43 @@
-# English Translation - Complete ✅
+# Adaptação de conteúdo — Concluída ✅
 
-## Translation Summary
+## Resumo
 
-The entire AgroTech platform has been successfully translated from Portuguese to English.
+O template original foi adaptado para um site profissional de psicologia, com conteúdo em pt-BR e identidade da cliente.
 
-## Translated Files
+## Arquivos atualizados
 
-### Main Components (src/components/)
+### Componentes principais (src/components/)
 
-- ✅ **Header.jsx** - Navigation menu, CTA buttons
-- ✅ **Hero.jsx** - Main banner, taglines, statistics
-- ✅ **Features.jsx** - All 6 feature cards with titles and descriptions
-- ✅ **About.jsx** - Company mission section
-- ✅ **Contact.jsx** - Contact form, labels, placeholders, messages
-- ✅ **Footer.jsx** - All footer sections and links
+- ✅ **Header.jsx** - Menu e CTA
+- ✅ **Hero.jsx** - Banner principal
+- ✅ **Features.jsx** - Áreas de atuação
+- ✅ **About.jsx** - Apresentação profissional
+- ✅ **Contact.jsx** - Formulário e contatos
+- ✅ **Footer.jsx** - Links e redes
 
-### Institutional Pages (src/pages/)
+### Páginas (src/pages/)
 
-- ✅ **Blog.jsx** - Blog posts titles, descriptions, buttons
-- ✅ **Documentation.jsx** - All documentation sections (Getting Started, Products, Technical Support)
-- ✅ **FAQ.jsx** - 12+ questions and answers across 4 categories
-- ✅ **Privacy.jsx** - Complete privacy policy (9 sections)
-- ✅ **Terms.jsx** - Complete terms of use (12 sections)
-- ✅ **Cookies.jsx** - Complete cookie policy (9 sections)
+- ✅ **Blog.jsx** - Conteúdos
+- ✅ **Documentation.jsx** - Orientações
+- ✅ **FAQ.jsx** - Perguntas frequentes
+- ✅ **Privacy.jsx** - Política de privacidade
+- ✅ **Terms.jsx** - Termos de uso
+- ✅ **Cookies.jsx** - Política de cookies
 
-### Configuration Files
+### Configurações
 
-- ✅ **index.html** - Meta tags, page title, language attribute (en)
+- ✅ **index.html** - Meta tags, título e idioma (pt-BR)
 
-## Build Status
+## Status
 
-✅ **Build Successful**
+✅ Conteúdo alinhado com a cliente
 
-- No errors found
-- Production bundle: 212.90 kB (gzipped: 63.33 kB)
-- CSS: 20.70 kB (gzipped: 4.23 kB)
+## Observação
 
-## Key Features
-
-All user-facing content is now in English:
-
-- Navigation menus
-- Buttons and CTAs
-- Form labels and placeholders
-- Error and success messages
-- Section titles and descriptions
-- Footer links and copyright
-- Legal pages (Privacy, Terms, Cookies)
-- FAQ questions and answers
-- Blog posts
-- Documentation
-
-## Technical Details
-
-- Language: `en` (set in index.html)
-- Routes: Maintained original paths (/privacidade, /termos, /cookies, etc.)
-- Email addresses: Kept as is (technical identifiers)
-- Build tool: Vite 5.4.21
-- No errors or warnings
-
-## Deployment Ready
-
-The project is ready for deployment with:
-
-- All content in English
-- Optimized production build
-- No compilation errors
-- Professional presentation
+Este arquivo é apenas um registro de adaptação do template.
 
 ---
 
-**Translation Date:** February 13, 2026
-**Project:** AgroTech Platform
-**Status:** Complete ✅
+**Data:** 19 de março de 2026
+**Projeto:** Site Priscila Borges Moraes
+**Status:** Concluído ✅
