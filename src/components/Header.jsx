@@ -21,7 +21,7 @@ function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold text-primary-600">
-              Priscila Borges
+              Priscila Borges Moraes
             </Link>
           </div>
 

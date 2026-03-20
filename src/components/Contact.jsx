@@ -106,7 +106,7 @@ function Contact() {
                       Endereço
                     </h4>
                     <p className="text-gray-600 break-words">
-                      Rua Rondônia n 28, Pauline — Belford Roxo, RJ — 26170-440
+                      Rua João Fernandes Neto n 1166, sala 204, Centro — Belford Roxo, RJ — 26130-050
                     </p>
                   </div>
                 </div>

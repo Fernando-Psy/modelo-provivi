@@ -32,8 +32,8 @@ function About() {
                 neuropsicológica.
               </p>
               <p className="text-lg text-gray-600">
-                Formação em Psicologia (Universidade Estácio de Sá, 2019.1) e
-                formação em Nutrição (Universidade Estácio de Sá, 02/2026).
+                Formação em Psicologia e
+                formação em Nutrição.
               </p>
             </div>
 
