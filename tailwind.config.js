@@ -18,7 +18,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ['"Cormorant Sans"', "serif"],
+        sans: ['"DM Sans"', "Inter", "system-ui", "sans-serif"],
       },
     },
   },

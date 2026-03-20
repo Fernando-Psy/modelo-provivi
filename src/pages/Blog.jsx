@@ -53,7 +53,7 @@ function Blog() {
                 key={post.id}
                 className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-200"
               >
-                <div className="h-48 bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-6xl">
+                <div className="h-48 bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-5xl sm:text-6xl">
                   {post.image}
                 </div>
                 <div className="p-6">

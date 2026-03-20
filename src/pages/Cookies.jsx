@@ -195,7 +195,7 @@ function Cookies() {
                 Para dúvidas sobre cookies, entre em contato:
               </p>
               <div className="mt-4 p-6 bg-gray-50 rounded-lg">
-                <p className="text-gray-700">
+                <p className="text-gray-700 break-words">
                   <strong>E-mail:</strong>{" "}
                   psicologapriscilaborgesmoraes@gmail.com
                   <br />

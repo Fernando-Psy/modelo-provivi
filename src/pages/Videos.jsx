@@ -136,7 +136,9 @@ function Videos() {
                   >
                     {/* Thumbnail */}
                     <div className="relative h-48 bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
-                      <div className="text-6xl">{video.thumbnail}</div>
+                      <div className="text-5xl sm:text-6xl">
+                        {video.thumbnail}
+                      </div>
                       <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                         <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                           <svg
@@ -217,7 +219,7 @@ function Videos() {
           onClick={closeModal}
         >
           <div
-            className="bg-white rounded-2xl max-w-4xl w-full overflow-hidden"
+            className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="relative" style={{ paddingBottom: "56.25%" }}>

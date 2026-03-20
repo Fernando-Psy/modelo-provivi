@@ -29,21 +29,23 @@ function Hero() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
-              <div>
-                <div className="text-3xl font-bold text-primary-600">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 pt-8 border-t border-gray-200 text-center sm:text-left">
+              <div className="min-w-0">
+                <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-primary-600 leading-tight whitespace-nowrap">
                   Online
                 </div>
                 <div className="text-sm text-gray-600">Teleatendimento</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-primary-600">
+              <div className="min-w-0">
+                <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-primary-600 leading-tight whitespace-nowrap">
                   Presencial
                 </div>
                 <div className="text-sm text-gray-600">Clínica</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-primary-600">Todas</div>
+              <div className="min-w-0">
+                <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-primary-600 leading-tight whitespace-nowrap">
+                  Todas
+                </div>
                 <div className="text-sm text-gray-600">as idades</div>
               </div>
             </div>

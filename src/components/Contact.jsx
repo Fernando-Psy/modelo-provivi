@@ -58,7 +58,7 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 break-words">
                       psicologapriscilaborgesmoraes@gmail.com
                     </p>
                   </div>
@@ -105,7 +105,7 @@ function Contact() {
                     <h4 className="font-semibold text-gray-900 mb-1">
                       Endereço
                     </h4>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 break-words">
                       Rua Rondônia n 28, Pauline — Belford Roxo, RJ — 26170-440
                     </p>
                   </div>
